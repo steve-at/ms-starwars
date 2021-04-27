@@ -4,7 +4,7 @@ const rp = require('request-promise');
  * return all of the films
  * https://swapi.co/documentation#films
  */
-const films = async () => {
+const films=async()=> {
   const options = {
     uri: 'https://swapi.co/api/films/',
     json: true
